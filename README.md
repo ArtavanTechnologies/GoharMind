@@ -6,7 +6,7 @@ GoharMind is an Industrial AI platform developed by **Artavan Technologies** to 
 
 It is designed to help engineers, operators, technical teams, and managers access trusted knowledge, analyze industrial information, investigate operational problems, and make faster, safer, and more informed decisions.
 
-> **Status:** Under active development.
+> **Status:** Under active development. No production-ready public release is currently available.
 
 ---
 
@@ -16,11 +16,22 @@ Industrial organizations generate large volumes of valuable information across o
 
 This information is often fragmented across different systems, departments, documents, file formats, and data sources.
 
-GoharMind provides a unified Industrial AI environment that converts these fragmented information sources into searchable, explainable, traceable, and actionable intelligence.
+GoharMind is being developed as a unified Industrial AI environment that converts these fragmented information sources into searchable, explainable, traceable, and actionable intelligence.
+
+The platform aims to support engineers, operators, technical teams, and managers in:
+
+- Finding trusted technical information
+- Understanding engineering documents
+- Investigating operational problems
+- Analyzing industrial data
+- Preserving organizational knowledge
+- Supporting operational and engineering decisions
 
 ---
 
 ## Core Capabilities
+
+GoharMind is being designed around the following capabilities:
 
 - Industrial AI assistance
 - Engineering knowledge retrieval
@@ -36,12 +47,13 @@ GoharMind provides a unified Industrial AI environment that converts these fragm
 - Local and private AI deployment
 - Role-based access and governance
 - Integration with industrial information systems
+- Integration with GoharTwin
 
 ---
 
 ## Knowledge Sources
 
-GoharMind is designed to work with industrial information such as:
+GoharMind is intended to work with industrial information such as:
 
 - Operational manuals
 - Engineering documents
@@ -66,11 +78,13 @@ GoharMind is designed to work with industrial information such as:
 
 ## Industrial Applications
 
-GoharMind is designed for deployment across a wide range of industries, including:
+GoharMind is being designed as an industry-independent platform that can support a wide range of industrial sectors, including:
 
 - Manufacturing
 - Mining and metals
 - Mineral processing
+- Iron and steel
+- Copper and non-ferrous metals
 - Oil and gas
 - Petrochemicals
 - Chemicals
@@ -82,6 +96,7 @@ GoharMind is designed for deployment across a wide range of industries, includin
 - Pharmaceuticals
 - Food and beverage
 - Logistics and warehousing
+- Smart infrastructure
 - Heavy industries
 - Continuous process industries
 - Batch process industries
@@ -102,13 +117,14 @@ GoharMind aims to help industrial organizations:
 - Enable explainable and traceable AI-assisted responses
 - Support local and private deployment requirements
 - Improve collaboration between operational and engineering teams
+- Connect engineering knowledge with operational data
 - Accelerate industrial digital transformation
 
 ---
 
-## Architecture
+## Platform Architecture
 
-GoharMind is being developed as a modular Industrial AI platform with the following architectural capabilities:
+GoharMind is being developed as a modular Industrial AI platform with architectural capabilities such as:
 
 - AI orchestration layer
 - Local language-model support
@@ -126,6 +142,47 @@ GoharMind is being developed as a modular Industrial AI platform with the follow
 - Web interface
 - Security and identity services
 - Governance, audit, and traceability services
+- GoharTwin integration layer
+
+The final architecture and implementation details may evolve as the product progresses through development, validation, and deployment phases.
+
+---
+
+## Knowledge Intelligence
+
+GoharMind is intended to transform industrial documents and information into governed knowledge through capabilities such as:
+
+- Document collection and ingestion
+- Text and metadata extraction
+- OCR for scanned documents
+- Document classification
+- Duplicate-file detection
+- Version identification
+- Semantic indexing
+- Source-aware retrieval
+- Citation and traceability
+- Knowledge-base organization
+- Access-control enforcement
+- Controlled AI-assisted responses
+
+---
+
+## Industrial Analytics and Decision Support
+
+GoharMind is intended to support analytical and decision-support workflows such as:
+
+- Historical-data analysis
+- Process-variable investigation
+- Correlation analysis
+- Trend interpretation
+- Root-cause analysis support
+- Quality-variable analysis
+- Operational-event investigation
+- Alarm interpretation
+- Engineering-document comparison
+- Predictive analytics
+- Technical recommendation support
+- Human-in-the-loop decision-making
 
 ---
 
@@ -134,15 +191,16 @@ GoharMind is being developed as a modular Industrial AI platform with the follow
 GoharMind is intended to support secure industrial environments through flexible deployment models, including:
 
 - Local deployment
-- Private-network deployment
 - On-premises deployment
+- Private-network deployment
+- Edge deployment
 - Hybrid deployment
 - Controlled external-model access
 - Role-based authorization
 - Audit and traceability
 - Segregated organizational knowledge bases
 
-Deployment architecture will depend on the security, operational, regulatory, and infrastructure requirements of each organization.
+Deployment architecture will depend on the security, operational, regulatory, connectivity, and infrastructure requirements of each organization.
 
 ---
 
@@ -150,15 +208,19 @@ Deployment architecture will depend on the security, operational, regulatory, an
 
 GoharMind and GoharTwin are complementary products developed by Artavan Technologies.
 
-- **GoharMind** provides Industrial AI, knowledge intelligence, engineering assistance, analytics, and decision support.
+- **GoharMind** provides Industrial AI, engineering knowledge intelligence, operational assistance, analytics, and decision support.
 - **GoharTwin** provides Industrial Digital Twin capabilities for monitoring, visualization, modeling, simulation, prediction, analytics, and process optimization.
 
-Together, they form an integrated foundation for intelligent industrial operations.
+GoharMind can use operational context supplied by GoharTwin, while GoharTwin can use AI and engineering-knowledge services provided by GoharMind.
 
-GoharTwin GitHub Repository:  
+Together, they are intended to form an integrated industrial intelligence ecosystem.
+
+### GoharTwin Links
+
+GitHub:  
 https://github.com/ArtavanTechnologies/GoharTwin
 
-GoharTwin LinkedIn:  
+LinkedIn:  
 https://www.linkedin.com/company/gohartwin/
 
 ---
@@ -210,7 +272,7 @@ https://www.linkedin.com/company/gohartwin/
 
 This repository represents the official GoharMind product workspace.
 
-Technical documentation, architecture artifacts, implementation components, release information, development evidence, and product updates will be added progressively as the product evolves.
+Technical documentation, architecture artifacts, implementation components, development evidence, and product updates will be added progressively as the platform evolves.
 
 Some components may remain private due to intellectual-property, industrial-security, customer-confidentiality, or deployment requirements.
 
@@ -218,26 +280,32 @@ Some components may remain private due to intellectual-property, industrial-secu
 
 ## Official Links
 
-- GoharMind LinkedIn  
-  https://www.linkedin.com/company/goharmind/
+### GoharMind
 
-- GoharMind GitHub  
-  https://github.com/ArtavanTechnologies/GoharMind
+LinkedIn:  
+https://www.linkedin.com/company/goharmind/
 
-- Artavan Technologies LinkedIn  
-  https://www.linkedin.com/company/artavan-technologies/
+GitHub:  
+https://github.com/ArtavanTechnologies/GoharMind
 
-- Artavan Technologies GitHub  
-  https://github.com/ArtavanTechnologies
+### Artavan Technologies
 
-- Artavan Repository  
-  https://github.com/ArtavanTechnologies/Artavan
+LinkedIn:  
+https://www.linkedin.com/company/artavan-technologies/
 
-- GoharTwin LinkedIn  
-  https://www.linkedin.com/company/gohartwin/
+GitHub Organization:  
+https://github.com/ArtavanTechnologies
 
-- GoharTwin GitHub  
-  https://github.com/ArtavanTechnologies/GoharTwin
+Official Repository:  
+https://github.com/ArtavanTechnologies/Artavan
+
+### GoharTwin
+
+LinkedIn:  
+https://www.linkedin.com/company/gohartwin/
+
+GitHub:  
+https://github.com/ArtavanTechnologies/GoharTwin
 
 ---
 
@@ -251,7 +319,7 @@ Building the future of industrial intelligence through Artificial Intelligence, 
 
 ## Legal Notice
 
-GoharMind, its name, logo, product concept, documentation, architecture, source code, models, datasets, interfaces, and associated intellectual property are protected by their respective rights.
+GoharMind, its name, logo, product concept, documentation, architecture, software, models, datasets, interfaces, and associated intellectual property are owned or claimed by their respective rights holder.
 
 No permission is granted to reproduce, distribute, commercialize, modify, or represent these materials without prior written authorization.
 
